@@ -2,7 +2,7 @@
 setting up everything to doing speedrun.
 
 Here I collected all HELP I know of to help you get started in speedrunning.
-One thing lest your speedrunning.com user, what you can set up at: (https://www.speedrun.com/mc.)* And join to the speedrunning discord: 
+One thing lest your speedrunning.com user, what you can set up at: (https://www.speedrun.com/mc.)* And join to the speedrunning discord: https://discord.com/jmdFn3C
 
 
 
