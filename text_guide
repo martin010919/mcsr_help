@@ -1,0 +1,49 @@
+Pastebin link: https://pastebin.com/raw/J9rfmRB5
+
+Transcript:
+[Preface]
+After Optifine was disallowed for speedrunning on version 1.16, there has been some confusion as to which mods can you use to boost your FPS.
+I've created this short text guide you can easily follow to prepare a fresh Fabric 1.16.1 installation, coupled together with MrMangoHands Sodium port to enhance your gameplay and achieve that PB you've always wanted!
+Note that this guide is aimed at users on PC using the Minecraft Launcher.
+
+[Conventions]
+In this guide, I give links directly to download the necessary files. Being the Internet and all, I don't expect them to last forever; hence, I will put in parenthesis a detailed explanation to what you should do in case the download does not work, and if they did work, you may freely skip them.
+Additionally, I put in <angled brackets> any files that I will later reference to.
+And finally, "go to PATH" means navigating to the mentioned directory path on your Windows PC, the easiest ways are using explorer address bar or by using Run (pressing WinKey + R) and pasting the path.
+The guide assumes that your Minecraft directory resides at its default location: %appdata%/.minecraft. If you moved it, make sure to fix any relevant paths.
+
+[Guide]
+
+# Download required files:
+<Fabric Installation> for the Minecraft Launcher: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.6.1.51/fabric-installer-0.6.1.51.exe
+(Look for an installation that can install Minecraft 1.16.1 on your current Launcher version. Right now the installation is generic and appears on https://fabricmc.net/use/)
+
+<MrMangoHands Sodium> port jar file: https://mrmangohands.github.io/sodium-redirect/
+<MrMangoHands Lithium> port jar file: https://mrmangohands.github.io/lithium-redirect/
+<MrMangoHands Phosphor> port jar file: https://mrmangohands.github.io/phosphor-redirect/
+(The above are backports of Sodium, Lithium and Phosphor for Fabric and are currently open-source and hosted on GitHub at https://github.com/mrmangohands/sodium-fabric, https://github.com/mrmangohands/lithium-fabric and https://github.com/mrmangohands/phosphor-fabric they are based on Jellysquid's versions which are much more mature and I believe will support 1.16.1 for longer. They are currently hosted at https://github.com/jellysquid3/)
+
+# Install Fabric
+- Launch your <Fabric Installation> executable.
+- Pick Minecraft Version: 1.16.1, do not change anything else unless you know what you're doing.
+- Your installation should look like this: https://i.imgur.com/ePTlhYo.png
+- Click Install
+
+# Install mods
+- Open your Minecraft Launcher
+- Pick "fabric-loader-1.16.1" from the version options on the bottom left: https://i.imgur.com/lyha4ST.png
+- Click play, and accept the warning shown.
+- After the game loads, exit it.
+- Go to %appdata%\.minecraft\mods
+- Copy <MrMangoHands Sodium>, <MrMangoHands Lithium> and <MrMangoHands Phosphor> files to this directory
+
+At this point, you're done! So, from now on, when you feel like speedrunnin':
+- Open your Minecraft Launcher
+- Pick "fabric-loader-1.16.1" from the version options on the bottom left: https://i.imgur.com/lyha4ST.png
+- Click play, enjoy, and good luck on your speedruns!
+
+# Additional helpful tips
+- After launching your Fabric-1.16.1, go to Options -> Video Settings -> Unofficial tab and check "Use Planar Fog".
+- Open %appdata%\.minecraft\options.txt search for "gamma" and change the line written there to "gamma:5.0".
+
+~Tal
